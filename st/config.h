@@ -97,32 +97,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#282828", /* black */
+	"#cc24ad", /* red3 */
+	"#98971a", /* green3 */
+	"#d79921", /* yellow3 */
+	"#458588", /* blue2 */
+	"#b16286", /* magenta3 */
+	"#689d6a", /* cyan3 */
+	"#a89984", /* gray90 */
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#928374", /* gray50 */
+	"#fb4934", /* red */
+	"#b8bb26", /* green */
+	"#fabd2f", /* yellow */
+	"#83a598", /* #5c5cff */
+	"#d3869b", /* magenta */
+	"#8ec07c", /* cyan */
+	"#ebdbb2", /* white */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#ebdbb2", /* gray90 default foreground colour */
+	"#282828", /* black default background colour */
 };
 
 
@@ -155,7 +155,7 @@ static unsigned int rows = 24;
  * Default colour and shape of the mouse cursor
  */
 static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 7;
+static unsigned int mousefg = 5;
 static unsigned int mousebg = 0;
 
 /*
