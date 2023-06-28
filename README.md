@@ -1,2 +1,2 @@
-# suckless
-A personal configuration of [suckless'](https://suckless.org/) dwm, dwmstatus, and st.
+# [suckless](https://suckless.org/)
+A personal configuration of suckless' dwm, dwmstatus, and st.
